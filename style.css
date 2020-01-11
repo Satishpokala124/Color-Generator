@@ -1,0 +1,25 @@
+body,button {
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.6);
+	background: linear-gradient(to right, green, red);
+
+}
+
+button {
+	background: rgba(0,0,0,0.6);
+	border-radius: 4px;
+	height: 30px;
+	width: 80px;
+	transition: 0.2s;
+}
+
+button:hover {
+	background: rgba(100,100,255,0.4);
+	transform: scale(1.1);
+}
+
+h3,p {
+	text-transform: lowercase;
+}
+
